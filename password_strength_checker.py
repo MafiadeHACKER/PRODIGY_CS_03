@@ -1,7 +1,7 @@
 import re
 
 def check_length(password):
-    """Check if password has at least 8 characters."""
+    """Check if password has at least 8 characters."""  
     return len(password) >= 8
 
 def check_uppercase(password):
@@ -73,3 +73,4 @@ def password_strength(password):
 # Example Usage
 password = input("Enter your password: ")
 print(password_strength(password))
+
