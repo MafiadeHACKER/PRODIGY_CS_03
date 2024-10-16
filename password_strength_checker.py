@@ -56,12 +56,12 @@ def password_strength(password):
     if score == 5:
         rating = "Strong (10/10)"
     elif score == 4:
-        rating = "Moderate (8/10)"
+        rating = "Moderate (8/10)"      
     elif score == 3:
         rating = "Weak (5/10)"
     else:
         rating = f"Very Weak ({score}/10)"
-    
+        
     # Generate a final report
     if not feedback:
         feedback_message = "Your password is excellent!"
