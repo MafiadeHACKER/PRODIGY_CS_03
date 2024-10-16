@@ -72,5 +72,5 @@ def password_strength(password):
 
 # Example Usage
 password = input("Enter your password: ")
-print(password_strength(password))
+print(password_strength(password)) 
 
